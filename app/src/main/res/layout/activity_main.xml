@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btSuma"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="+">
+
+    </Button>
+    <Button
+        android:id="@+id/btnresta"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="-">
+
+    </Button>
+    <Button
+        android:id="@+id/btnmulti"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="*">
+
+    </Button>
+    <Button
+        android:id="@+id/btndivision"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="/">
+
+    </Button>
+    <TextView
+        android:id="@+id/txtesultado"
+        android:text="El resultado es: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp">
+
+    </TextView>
+
+
+</LinearLayout>
